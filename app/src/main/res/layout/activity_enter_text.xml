@@ -20,148 +20,269 @@
 
 
 
-    <Button
+    <LinearLayout
         android:id="@+id/button1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_blue"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector_blue"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/button2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_blue"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector_blue"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/button3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_blue"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector_blue"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/button4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="4"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_blue"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector_blue"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/button5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="5"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_blue"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector_blue"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/button6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="6"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_blue"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector_blue"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/button7"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="7"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_blue"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector_blue"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/button8"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="8"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_blue"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector_blue"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/button9"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="9"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_blue"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector_blue"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/button0"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="0"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_blue"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector_blue"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonQ"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Q"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/buttonW"
@@ -182,231 +303,418 @@
 
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="25sp"
+            android:textSize="35sp"
             android:gravity="center" />
 
     </LinearLayout>
 
-    <Button
+    <LinearLayout
         android:id="@+id/buttonE"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="E"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonR"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="R"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonT"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="T"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonY"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Y"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonU"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="U"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonI"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="I"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonO"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="O"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonP"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="P"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonA"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="A"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonS"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="S"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonD"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="D"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonF"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="F"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonG"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="G"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonH"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="H"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonJ"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="J"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonK"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="K"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonL"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="L"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/buttonDelete"
@@ -443,92 +751,158 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Team   A"
+            android:text="Team A"
 
             android:textColor="@color/yellow"
             android:textStyle="bold"
-            android:textSize="17sp"
+            android:textSize="19sp"
             android:gravity="center" />
 
     </LinearLayout>
 
-    <Button
+    <LinearLayout
         android:id="@+id/buttonZ"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Z"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonX"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="X"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonC"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="C"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonV"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="V"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonB"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="B"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
 
-    <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/buttonN"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="N"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:background="@drawable/button_selector"
-        app:backgroundTint="@null"
-        android:gravity="center" />
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/buttonM"
@@ -549,7 +923,7 @@
 
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="25sp"
+            android:textSize="35sp"
             android:gravity="center" />
 
     </LinearLayout>
@@ -589,11 +963,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Team   B"
+            android:text="Team B"
 
             android:textColor="@color/yellow"
             android:textStyle="bold"
-            android:textSize="17sp"
+            android:textSize="19sp"
             android:gravity="center" />
 
     </LinearLayout>
