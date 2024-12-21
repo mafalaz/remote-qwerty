@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterTextActivity"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:layout_gravity="center"
+    app:rowCount="5"
+    android:background="@color/black"
+    app:columnCount="10"
+
+
+    app:alignmentMode="alignMargins"
+    app:useDefaultMargins="true">
+
+    <!-- Tambahkan tombol-tombol -->
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_blue"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_blue"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="3"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_blue"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="4"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_blue"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="5"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_blue"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="6"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_blue"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="7"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_blue"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="8"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_blue"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="9"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_blue"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_blue"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonQ"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Q"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/buttonW"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonE"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="E"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonR"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="R"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="T"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonY"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonU"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="U"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="I"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonO"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="O"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="P"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="A"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="S"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="D"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonF"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="F"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonG"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="G"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonH"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="H"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonJ"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="J"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonK"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="K"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="L"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/buttonDelete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_red"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/delete"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonTeamA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team   A"
+
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonZ"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonX"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="C"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="V"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="B"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="N"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/buttonM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonSpace"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector_green"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/space"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonTeamB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team   B"
+
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonSetTimer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Timer"
+
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonSetSCVar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set SC Var"
+
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:visibility="gone"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:visibility="gone"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:visibility="gone"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_columnWeight="1"
+        android:visibility="gone"
+        app:layout_rowWeight="1"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:visibility="gone"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_columnWeight="1"
+        android:visibility="gone"
+        app:layout_rowWeight="1"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_columnWeight="1"
+        android:visibility="gone"
+        app:layout_rowWeight="1"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        app:backgroundTint="@null"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/backButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_selector"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/left_arrow"/>
+
+    </LinearLayout>
+
+
+
+
+</androidx.gridlayout.widget.GridLayout>
